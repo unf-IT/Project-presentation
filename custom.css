@@ -5,6 +5,10 @@ html{
     color: antiquewhite;
 }
 
+head{ 
+    padding-top: 3em;
+}
+
 h1{
     text-align: center;
     font-size: 3em;
@@ -15,5 +19,25 @@ h2{
 }
 
 div{
-    padding: 5em;
+
+    margin-top: 3em;
+}
+
+a{
+    color: antiquewhite;
+    font-size: 1.5em;
+    
+}
+
+.root{
+    display: flex;
+    justify-content: space-around;
+}
+
+.render{
+    padding: 1em 3em 1em 3em;
+    display: inline-block;
+    border: solid 0.2em;
+    border-color: antiquewhite;
+    border-radius: 35% 10% 35% 10%;
 }
