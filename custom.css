@@ -1,7 +1,7 @@
 html{
-    /* background-color: aquamarine !important; */
+    /* background-color: Black !important; */
     background-image: url("sea-background.jpg");
-    font-family: cursive;
+    font-family: serif;
     color: antiquewhite;
 }
 
@@ -19,8 +19,7 @@ h2{
 }
 
 div{
-
-    margin-top: 3em;
+    margin: 2.5em;
 }
 
 a{
@@ -29,7 +28,7 @@ a{
     
 }
 
-.root{
+.link{
     display: flex;
     justify-content: space-around;
 }
@@ -39,5 +38,13 @@ a{
     display: inline-block;
     border: solid 0.2em;
     border-color: antiquewhite;
-    border-radius: 35% 10% 35% 10%;
+    border-radius: 10% 10% 10% 10%;
+}
+
+.team{
+    margin-left: 5em;
+}
+
+.team>p{
+    margin-left: 5em;
 }
