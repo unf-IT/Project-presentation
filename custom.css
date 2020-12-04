@@ -14,7 +14,7 @@ h1{
     font-size: 3em;
 }
 
-h2{
+h2,h3{
     font-size: 1.5em;
 }
 
@@ -41,10 +41,19 @@ a{
     border-radius: 10% 10% 10% 10%;
 }
 
-.team{
+.team, .find-us{
     margin-left: 5em;
 }
 
-.team>p{
+.team>p, .{
     margin-left: 5em;
 }
+
+.find-us>p{
+    text-align: center;
+}
+
+.find-us>p>a{
+    font-size: 1em;
+}
+
