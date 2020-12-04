@@ -1,0 +1,19 @@
+html{
+    /* background-color: aquamarine !important; */
+    background-image: url("sea-background.jpg");
+    font-family: cursive;
+    color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+div{
+    padding: 5em;
+}
